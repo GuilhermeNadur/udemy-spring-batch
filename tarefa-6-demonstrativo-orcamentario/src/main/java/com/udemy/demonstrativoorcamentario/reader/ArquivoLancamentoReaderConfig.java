@@ -8,6 +8,8 @@ import org.springframework.batch.item.file.mapping.FieldSetMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.ArrayList;
+
 @Configuration
 public class ArquivoLancamentoReaderConfig {
 
@@ -30,6 +32,7 @@ public class ArquivoLancamentoReaderConfig {
                         .descricao(fieldSet.readString("descricaoLancamento"))
                         .valor(fieldSet.readDouble("valorLancamento"))
                         .build())
+                .lancamentos(new ArrayList<>())
                 .build();
     }
 }
