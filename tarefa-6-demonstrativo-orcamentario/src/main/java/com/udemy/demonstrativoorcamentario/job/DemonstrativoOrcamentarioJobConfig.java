@@ -17,10 +17,10 @@ public class DemonstrativoOrcamentarioJobConfig {
     private JobBuilderFactory jobBuilderFactory;
 
     @Bean
-    public Job getDemonstrativoOrcamentarioJob(Step step) {
+    public Job getDemonstrativoOrcamentarioJob(Step demonstrativoOrcamentarioStep) {
         return jobBuilderFactory
                 .get("getDemonstrativoOrcamentarioJob")
-                .start(step)
+                .start(demonstrativoOrcamentarioStep)
                 .incrementer(new RunIdIncrementer())
                 .build();
     }
