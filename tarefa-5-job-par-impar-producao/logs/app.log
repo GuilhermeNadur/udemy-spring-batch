@@ -1,0 +1,42 @@
+2022-04-16 15:26:52,585 INFO c.u.p.ProducaoParImparJobApplication [main] Starting ProducaoParImparJobApplication on JAKE-DESKTOP with PID 11896 (H:\workspace_intellij\udemy-spring-batch\tarefa-5-job-par-impar-producao\target\classes started by guina in H:\workspace_intellij\udemy-spring-batch\tarefa-5-job-par-impar-producao)
+2022-04-16 15:26:52,589 INFO c.u.p.ProducaoParImparJobApplication [main] No active profile set, falling back to default profiles: default
+2022-04-16 15:26:53,089 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropertiesConfig.propertySourcesPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-04-16 15:26:53,383 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-04-16 15:26:53,730 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-04-16 15:26:53,859 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-04-16 15:26:54,112 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-04-16 15:26:54,184 INFO c.u.p.ProducaoParImparJobApplication [main] Started ProducaoParImparJobApplication in 2.221 seconds (JVM running for 3.013)
+2022-04-16 15:26:54,276 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=5}]
+2022-04-16 15:26:54,329 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2022-04-16 15:26:54,397 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 67ms
+2022-04-16 15:26:54,419 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=5}] and the following status: [COMPLETED] in 109ms
+2022-04-16 15:26:54,429 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-04-16 15:26:54,444 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-04-16 15:27:54,412 INFO c.u.p.ProducaoParImparJobApplication [main] Starting ProducaoParImparJobApplication on JAKE-DESKTOP with PID 2396 (H:\workspace_intellij\udemy-spring-batch\tarefa-5-job-par-impar-producao\target\classes started by guina in H:\workspace_intellij\udemy-spring-batch\tarefa-5-job-par-impar-producao)
+2022-04-16 15:27:54,416 INFO c.u.p.ProducaoParImparJobApplication [main] No active profile set, falling back to default profiles: default
+2022-04-16 15:27:54,773 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropertiesConfig.propertySourcesPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-04-16 15:27:54,988 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-04-16 15:27:55,272 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-04-16 15:27:55,324 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-04-16 15:27:55,452 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-04-16 15:27:55,520 INFO c.u.p.ProducaoParImparJobApplication [main] Started ProducaoParImparJobApplication in 1.368 seconds (JVM running for 1.951)
+2022-04-16 15:27:55,582 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=6}]
+2022-04-16 15:27:55,618 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2022-04-16 15:27:55,720 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 102ms
+2022-04-16 15:27:55,731 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=6}] and the following status: [COMPLETED] in 128ms
+2022-04-16 15:27:55,734 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-04-16 15:27:55,739 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-04-17 12:06:11,944 INFO c.u.p.ProducaoParImparJobApplication [main] Starting ProducaoParImparJobApplication on JAKE-DESKTOP with PID 6160 (H:\workspace_intellij\udemy-spring-batch\tarefa-5-job-par-impar-producao\target\classes started by guina in H:\workspace_intellij\udemy-spring-batch\tarefa-5-job-par-impar-producao)
+2022-04-17 12:06:11,948 INFO c.u.p.ProducaoParImparJobApplication [main] No active profile set, falling back to default profiles: default
+2022-04-17 12:06:12,341 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropertiesConfig.propertySourcesPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-04-17 12:06:12,571 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-04-17 12:06:12,968 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-04-17 12:06:13,027 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-04-17 12:06:13,219 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-04-17 12:06:13,314 INFO c.u.p.ProducaoParImparJobApplication [main] Started ProducaoParImparJobApplication in 1.693 seconds (JVM running for 2.411)
+2022-04-17 12:06:13,399 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=7}]
+2022-04-17 12:06:13,451 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2022-04-17 12:06:13,525 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 73ms
+2022-04-17 12:06:13,536 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=7}] and the following status: [COMPLETED] in 108ms
+2022-04-17 12:06:13,538 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-04-17 12:06:13,543 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
